@@ -1,1 +1,4 @@
-opencv-python
+streamlit==1.17.1
+opencv-python==4.5.3.56
+numpy==1.21.2
+tensorflow==2.6.0
