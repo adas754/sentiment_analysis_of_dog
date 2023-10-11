@@ -4,7 +4,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 
 # Load the model 
-new_model = load_model("C:\\Users\\hp\\Downloads\\hands\\model (1).h5", compile=False)
+new_model = load_model('model (1).h5', compile=False)
 new_model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 # Function to preprocess the uploaded image
